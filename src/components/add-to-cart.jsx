@@ -18,7 +18,7 @@ export function AddToCart({ variantId, quantity, available, ...props }) {
       disabled={!available || loading}
       {...props}
     >
-      {available ? "Add To Cart" : "Out of Stock"}
+      {available ? "Buy Now" : "Out of Stock"}
     </button>
   )
 }
