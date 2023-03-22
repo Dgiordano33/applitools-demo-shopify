@@ -14,7 +14,6 @@ export function AddToCart({ variantId, quantity, available, ...props }) {
     <button
       type="submit"
       className={addToCartStyle}
-      id="buyButton"
       onClick={addToCart}
       disabled={!available || loading}
       {...props}
