@@ -9,7 +9,7 @@ export function CartButton({ quantity }) {
       aria-label={`Shopping Cart with ${quantity} items`}
       to="/cart"
       className={cartButton}
-      id="redCartButton"
+      id="cartButton"
     >
       <CartIcon />
       {quantity > 0 && <div className={badge}>{quantity}</div>}
